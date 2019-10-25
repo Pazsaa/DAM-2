@@ -1,0 +1,172 @@
+﻿--ERP--
+
+¿Cómo definirías un ERP?
+--> Sistemas de planificación de recursos empresariales.
+	--> Sistemas informático de gestión de información que automatizan muchas de las prácticas de negocios asociadas a los aspectos operatios o productivos de una empresa, ayudando tanto en ámbitos generales como a la toma de decisiones.
+	
+¿Qué es un CRM?
+--> Software para la administración de la relación con los clientes. Son sistemas informáticos que sirven de apoyo para la gestión de las relaciones con los clientes, ventas y marketing.
+
+¿Podrías nombrar 4 ERPs de licencia libre? Escoge uno de ellos y busca información sobre requisitoshardware, sistema(s), operativos(s), instalación... Es necesario adjuntar el link de descarga del ERP yde sus manuales.
+	--> Odoo
+		--> Ubuntu 16.04 VPS
+		--> 2GB RAM
+		--> Intel x86 o compatible
+		--> PostgreSQL server
+		--> Python 3.5 o superior
+		--> Apache web server
+		--> SSH
+	--> Openbravo
+	--> Adempiere
+	--> ERPNEXT
+		
+¿Podrías nombrar 4 ERPs propietarios
+--> SAP Business One
+--> Microsoft Dybanuc BAV
+--> Sage kubea 100
+--> Solmicro
+
+¿Qué ventajas aporta un ERP a la empresa?
+--> Mejora en la toma de decisiones
+--> Se evitan duplicidades
+--> Escalabilidad y diseño modular
+--> Adaptación a las necesidades especificas de cada empresa
+--> Mayor control y fiabilidad
+--> Mayor seguridad
+--> Mayor integracion con clientes
+
+¿Cuál es la estructura básica de un sistema ERP?
+--> Gestión de clientes (CRM)
+--> Gestión de la cadena de suministros (SCM)
+--> Gestión de relaciones con proveedores (SRM)
+--> Inteligencia de negocio (BI)
+--> Base de conocimiento (KM)
+--> Gestion de relaciones con socios (PRM)
+--> Gestion ciclo de vida de producto (PLM)
+
+¿Qué módulos debería incluir un ERP básico?
+--> Recursos humanos
+--> Inventario
+--> Compras
+--> Ventas
+--> Financiero y contable
+--> Gestion de relaciones con los clientes
+--> Produccion
+--> Gestion de la cadena de suministro
+
+¿Cómo se relacionarían estos módulos entre ellos?
+--> Todos trabajan con los mismos datos y observan los mismos indicadores clave de rendimiento.
+
+Teniendo en mente los módulos que has citado en la pregunta anterior, y suponiendo que nuestraempresa se dedica a la venta de artículos de ferretería. ¿Cómo se relacionarían esos módulosdurante la venta de una caja de tornillos?
+--> Recursos humanos - NA
+--> Inventario --> Control de stock, retirada del producto al realizar la venta.
+--> Compras --> Re-stock
+--> Ventas --> Realizar la venta.
+--> Financiero y contable --> Facturación
+--> Gestion de relaciones con los clientes --> Encontrar compradores
+--> Producción  --> Fabrica tornillos
+--> Gestion de la cadena de suminstro --> Proveedores
+
+Si nuestra empresa trabajase por ejemplo en la fabricación de muebles. ¿Añadirías algún módulo?¿Necesitarías algo más para, por ejemplo, realizar la venta de una mesa?
+--> No.
+
+¿Crees que todas las empresas necesitan un ERP? Justifica tu respuesta
+--> Depende del tamaño/alcance que la empresa tenga/quiera tener.
+
+¿Qué metodologías de implantación de ERPs conoces? Escoge una y describe brevemente susetapas.
+--> ASAP
+	--> Preparación del proyecto
+	--> Blueprint
+	--> Realización
+	--> Preparación final
+	--> Soporte go-live
+	--> Ejecución
+--> AIM
+--> SureStep
+
+Ventajas y desventajas de tener un ERP en la nube. Bajo tu opinión ¿de qué depende que pueda ser más ventajoso que un servidor propio?
+--> Ventajas
+	--> Funcionalidad
+	--> Implantacion
+	--> Escalabilidad
+	--> Barreras de entrada y salida
+	--> Actualizaciones
+	--> Movilidad
+	--> Coste
+
+--> Desventajas
+	--> Aspectos legales
+	--> Caida de internet y mantenimiento
+	--> Continiudad del servicio
+	--> Evitar la perdida de datos
+
+--> Asistencia / Coste
+
+¿Se te ocurre algún aspecto negativo que pueda tener la implantación de un ERP en una empresa?
+--> Requiere personal informátco / conocimientos.
+
+
+Preguntas kahoot:
+	--> [C] ¿Cual de estos no es un modulo ERP? Compras / Financiero / [X]Desarrollo / Producción
+	--> [A] ????
+
+
+
+-------------
+-------------
+-------------
+--LICENCIAS--
+
+1.- Generalmente una obra artística pasa a ser de dominio público 50 años después de la muerte de su autor. ¿Qué significa esto? ¿Hay excepciones? ¿Cómo está la legislación en España?
+--> Significa que tras el periodo de tiempo establecido por ley tras la muerte del autor, los derechos sobre la obra pasan a ser públicos. Cualquiera puede acceder al material, consultar la fuente, modificarla y hasta publicarla
+bajo una licencia diferente.
+--> Excepciones:
+	--> Obras anónimas  (Intencionalmente anónimas)
+	--> Obras huérfanas (Autores o herederos desconocidos)
+--> Legislación española
+	--> Obras creadas por autores fallecidos antes del 7 de diciembre de 1987: en el dominio público en España 80 años después de la muerte del autor.
+	--> Para los autores fallecidos con posterioridad al 7 de diciembre de 1987, se establece en el artículo 26 un periodo de protección de 70 años desde el fallecimiento.
+
+2.- ¿Cuál de estas aplicaciones utilizas normalmente? (Apps dominio publico)
+--> Tor
+--> VNC
+--> Netbeans
+--> Utorrent
+
+3.- ¿Qué es la Asociación Europea para la defensa del Dominio Público?
+--> Es una asociación cuyo objetivo es promover la conciliación del derecho individual de autor, con el derecho de todos a la cultura y el conocimiento mediante el establecimiento
+de normas, herramientas y codigos de conducta.
+
+4.- Existen música o películas bajo licencia creative commons? En  caso afirmativo nombra 3 webs desde donde se puedan descargar.
+--> Si
+	--> Musopen
+	--> Public domain torrents
+	--> Internet archive
+
+5.- Investiga: ¿Incumple Google la licencia GNU/GPL con Android?
+--> No se sabe. Hay quien argumenta que android contiene partes de linux y nos encontramos en proceso de demostrar la vericidad de dicha afirmación.
+
+6.- Investiga. Explica las diferencias sobre las siguientes licencias. ¿Qué derechos se ceden encada una de ellas?
+--> 1: No copyrighted 	--> El autor de la obre ha decidido que la obra no tenga derechos de autor.
+--> 2: GNU  --> Todos los programas GNU son de código abierto, se pueden modificar y compartir.
+--> 3: Dominio público.
+
+--> 4: Licencia Creative Commons --> Créditos al autor
+--> 5: Licencia Creative Commons --> Créditos al autor --> Misma licencia que obra original.
+--> 6: Licencia Creative Commons --> Créditos al autor --> No modificable ni adaptable.
+--> 7: Licencia Creative Commons --> Créditos al autor --> No se puede comercializar.
+--> 8: Licencia Creative Commons --> Créditos al autor --> No se puede comercializar --> Misma licencia que obra original.
+--> 9: Licencia Creative Commons --> Créditos al autor --> No se puede comercializar. --> No modificable ni adaptable.
+
+7.- Para la distribución de vuestro proyecto de móviles ¿qué licencia escogerías y por qué? 
+--> Licencia Creative Commons --> Créditos al autor --> No se puede comercializar.
+--> La aplicación se desarrolló con motivos/intenciones educativas, por lo que consideramos que es de uso libre, pero sin derecho a la comercialización.
+
+8.- ¿Es legal patentar software en España?
+--> El software no se patenta ni es necesario registrarlo.  A excepción de software incrustado en hardware pantentado.
+
+9.- Opinión. ¿Las patentes impiden la libre competencia?
+--> No. Las patentes restringen la aplicación concreta de una idea, no la idea en sí.
+
+10.- Opinión. ¿Un precio simbólico por descarga acabaría con la piratería del software privativo?
+--> No, aunque ayudaría a reducirla.
