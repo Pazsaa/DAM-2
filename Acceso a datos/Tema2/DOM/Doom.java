@@ -4,6 +4,7 @@ import org.w3c.dom.ls.DOMImplementationLS;
 import org.w3c.dom.ls.LSOutput;
 import org.w3c.dom.ls.LSSerializer;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
@@ -11,6 +12,10 @@ import java.util.ArrayList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 
 public class Doom {
     // Ejercicio 1
@@ -217,37 +222,36 @@ public class Doom {
     }
 
     // Ejercicio 12
-    public static Document newDOM() throws ParserConfigurationException {
-        Document doc;
-        DocumentBuilderFactory factoria = DocumentBuilderFactory.newInstance();
-        factoria.setIgnoringComments(true);        
-        DocumentBuilder builder = factoria.newDocumentBuilder();
-        doc = builder.newDocument();
-         
-        Element company = doc.createElement("compañia");
-        Element employee = doc.createElement("empleado");
-        Element nombre = doc.createElement("nombre");
-        Text nombreVal = doc.createTextNode("Juan");
-        Element apellidos = doc.createElement("apellidos");
-        Text apellidosVal = doc.createTextNode("López Pérez");
-        Element apodo = doc.createElement("apodo");
-        Text apodoVal = doc.createTextNode("Juanín");
-        Element salary = doc.createElement("salario");
-        Text salaryVal = doc.createTextNode("1000");
+    public static void newDOM(String path) throws ParserConfigurationException {
+        try{
+            DocumentBuilderFactory documentFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder documentBuilder = documentFactory.newDocumentBuilder();
+            Document doc = documentBuilder.newDocument();
+            
+            // root
+            Element company = doc.createElement("compañia");
+            // empleado
+            Element employee = doc.createElement("empleado");
+            // nombre + val
+            Element nombre = doc.createElement("nombre"); Text nombreVal = doc.createTextNode("Juan");
+            // apellidos + val
+            Element apellidos = doc.createElement("apellidos"); Text apellidosVal = doc.createTextNode("López Pérez");
+            // apodo + val
+            Element apodo = doc.createElement("apodo"); Text apodoVal = doc.createTextNode("Juanín");
+            // salario + val
+            Element salary = doc.createElement("salario"); Text salaryVal = doc.createTextNode("1000");
 
-        company.appendChild(employee);
-        employee.setAttribute("id", "1");
-        employee.appendChild(nombre);
-        employee.appendChild(apellidos);
-        employee.appendChild(apodo);
-        employee.appendChild(salary);
+            doc.appendChild(company);
+            company.appendChild(employee); employee.setAttribute("id", "1");
+            employee.appendChild(nombre); nombre.appendChild(nombreVal);
+            employee.appendChild(apellidos); apellidos.appendChild(apellidosVal);
+            employee.appendChild(apodo); apodo.appendChild(apodoVal);
+            employee.appendChild(salary); salary.appendChild(salaryVal);
 
-        nombre.appendChild(nombreVal);
-        apellidos.appendChild(apellidosVal);
-        apodo.appendChild(apodoVal);
-        salary.appendChild(salaryVal);
-        
-        return doc;
+            saveDOM(doc, path);
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }
     }
 
     // SAVE DOM
