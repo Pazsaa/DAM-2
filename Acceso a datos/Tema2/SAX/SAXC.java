@@ -1,51 +1,65 @@
 package test;
 
+import java.util.ArrayList;
+
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
 
-public class SAXA extends DefaultHandler{
+public class SAXC extends DefaultHandler{
     String qName = "";
-
+    String tituloHolder = "";
+    ArrayList<String> titulos = new ArrayList<String>();
+    int wantedDirectores;
+    int counterDirectores = 0;
+    
+    public SAXC(int n) {
+    	this.wantedDirectores = n;
+    }
+    
+    public ArrayList<String> getTitulos(){
+    	return titulos;
+    }
+    
+    public void setWantedDirectores(int n) {
+    	this.wantedDirectores = n;
+    }
+    
     @Override
     public void startDocument() throws SAXException{
-        System.out.println("Comienzo del documento XML");
+    	
     }
 
     @Override
     public void endDocument() throws SAXException{
-        System.out.println("\nFin del documento XML");
+    	for(String str: titulos)
+    		System.out.println(str);
     }
 
     @Override 
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
-        if(qName.contentEquals("filmoteca"))
-        	System.out.printf("<" + qName + ">");
-    	if(qName.contentEquals("pelicula"))
-        	System.out.printf("\n <" + qName + ">");
-        if(qName.contentEquals("titulo") || qName.contentEquals("director"))
-        	System.out.printf("\n  <" + qName + ">");
-        if(qName.contentEquals("nombre") || qName.contentEquals("apellido"))
-        	System.out.printf("\n   <" + qName + ">");
+    	if(qName.contentEquals("director")) this.counterDirectores++;
+    	if(qName.contentEquals("titulo")) this.qName = qName;
+    	else this.qName = "";
     }
 
     @Override 
     public void endElement(String uri, String localName, String qName) throws SAXException{
-    	if(qName.contentEquals("filmoteca"))
-    		System.out.printf("\n </" + qName + ">");
-    	if(qName.contentEquals("pelicula"))
-        	System.out.printf("\n </" + qName + ">");
-    	if(qName.contentEquals("director"))
-        	System.out.printf("\n  </" + qName + ">");
-    	if(qName.contentEquals("nombre") || qName.contentEquals("apellido") || qName.contentEquals("titulo"))
-    		System.out.printf("</" + qName + ">");
+    	if(qName.contentEquals("pelicula")) {
+    		if(counterDirectores >= this.wantedDirectores)
+    			titulos.add(tituloHolder);
+    		
+    		this.counterDirectores = 0;
+    		this.tituloHolder = "";
+    	}
     }
 
     @Override
     public void characters(char[] ch, int start, int length) throws SAXException{
         String cad = new String(ch, start, length);
-        System.out.printf(cad);
+        if(this.qName == "titulo")
+        	this.tituloHolder = cad;
     }
 
     @Override
