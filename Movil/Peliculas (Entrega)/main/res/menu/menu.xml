@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/films"
+        android:icon="@drawable/films"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/favs"
+        android:icon="@drawable/corazon"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/añadir"
+        android:icon="@drawable/suma"
+        android:title="Item"
+        app:showAsAction="always" />
+</menu>

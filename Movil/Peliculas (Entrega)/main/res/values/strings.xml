@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Peliculotas</string>
+    <string-array name="options">
+        <item>Gran Vía</item>
+        <item>Travesia</item>
+        <item>Plaza Elíptica</item>
+    </string-array>
+</resources>
