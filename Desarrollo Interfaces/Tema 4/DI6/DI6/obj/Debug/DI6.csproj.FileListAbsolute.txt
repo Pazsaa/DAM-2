@@ -1,0 +1,11 @@
+C:\Users\apazg\source\repos\DI6\DI6\bin\Debug\DI6.exe.config
+C:\Users\apazg\source\repos\DI6\DI6\bin\Debug\DI6.exe
+C:\Users\apazg\source\repos\DI6\DI6\bin\Debug\DI6.pdb
+C:\Users\apazg\source\repos\DI6\DI6\obj\Debug\DI6.csprojAssemblyReference.cache
+C:\Users\apazg\source\repos\DI6\DI6\obj\Debug\DI6.FormPin.resources
+C:\Users\apazg\source\repos\DI6\DI6\obj\Debug\DI6.Properties.Resources.resources
+C:\Users\apazg\source\repos\DI6\DI6\obj\Debug\DI6.csproj.GenerateResource.cache
+C:\Users\apazg\source\repos\DI6\DI6\obj\Debug\DI6.csproj.CoreCompileInputs.cache
+C:\Users\apazg\source\repos\DI6\DI6\obj\Debug\DI6.exe
+C:\Users\apazg\source\repos\DI6\DI6\obj\Debug\DI6.pdb
+C:\Users\apazg\source\repos\DI6\DI6\obj\Debug\DI6.Form1.resources
