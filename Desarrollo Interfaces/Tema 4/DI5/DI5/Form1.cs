@@ -20,6 +20,7 @@ namespace DI5
         public static string DesignTitle = "Titulo";
         public static char[] letras = DesignTitle.ToCharArray();
         public int TimerCounter = 0;
+        public bool iconChanged = false;
 
 
         public Form1()
@@ -132,6 +133,21 @@ namespace DI5
             {
                 // Empty round just to wait twice the time
                 TimerCounter = -1;
+            }
+
+            // ICONO
+            if(TimerCounter % 2 == 0)
+            {
+                if (!iconChanged)
+                {
+                    this.Icon = new Icon("C:\\Users\\apazgarcia\\Desktop\\Main 2\\Desarrollo Interfaces\\Tema 4\\DI5\\DI5\\bin\\Debug\\santa.ico");
+                    iconChanged = !iconChanged;
+                }
+                else
+                {
+                    this.Icon = new Icon("C:\\Users\\apazgarcia\\Desktop\\Main 2\\Desarrollo Interfaces\\Tema 4\\DI5\\DI5\\bin\\Debug\\reindeer.ico");
+                    iconChanged = !iconChanged;
+                }
             }
         }
     }

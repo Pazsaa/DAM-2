@@ -18,3 +18,13 @@ C:\Users\apazgarcia\Desktop\DI5\DI5\obj\Debug\DI5.csproj.GenerateResource.cache
 C:\Users\apazgarcia\Desktop\DI5\DI5\obj\Debug\DI5.csproj.CoreCompileInputs.cache
 C:\Users\apazgarcia\Desktop\DI5\DI5\obj\Debug\DI5.exe
 C:\Users\apazgarcia\Desktop\DI5\DI5\obj\Debug\DI5.pdb
+C:\Users\apazgarcia\Desktop\Main 2\Desarrollo Interfaces\Tema 4\DI5\DI5\bin\Debug\DI5.exe.config
+C:\Users\apazgarcia\Desktop\Main 2\Desarrollo Interfaces\Tema 4\DI5\DI5\bin\Debug\DI5.exe
+C:\Users\apazgarcia\Desktop\Main 2\Desarrollo Interfaces\Tema 4\DI5\DI5\bin\Debug\DI5.pdb
+C:\Users\apazgarcia\Desktop\Main 2\Desarrollo Interfaces\Tema 4\DI5\DI5\obj\Debug\DI5.csprojAssemblyReference.cache
+C:\Users\apazgarcia\Desktop\Main 2\Desarrollo Interfaces\Tema 4\DI5\DI5\obj\Debug\DI5.Form1.resources
+C:\Users\apazgarcia\Desktop\Main 2\Desarrollo Interfaces\Tema 4\DI5\DI5\obj\Debug\DI5.Properties.Resources.resources
+C:\Users\apazgarcia\Desktop\Main 2\Desarrollo Interfaces\Tema 4\DI5\DI5\obj\Debug\DI5.csproj.GenerateResource.cache
+C:\Users\apazgarcia\Desktop\Main 2\Desarrollo Interfaces\Tema 4\DI5\DI5\obj\Debug\DI5.csproj.CoreCompileInputs.cache
+C:\Users\apazgarcia\Desktop\Main 2\Desarrollo Interfaces\Tema 4\DI5\DI5\obj\Debug\DI5.exe
+C:\Users\apazgarcia\Desktop\Main 2\Desarrollo Interfaces\Tema 4\DI5\DI5\obj\Debug\DI5.pdb
