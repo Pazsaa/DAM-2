@@ -1,0 +1,8 @@
+C:\Users\apazgarcia\source\repos\NuevosComponentes\NuevosComponentes\bin\Debug\NuevosComponentes.dll
+C:\Users\apazgarcia\source\repos\NuevosComponentes\NuevosComponentes\bin\Debug\NuevosComponentes.pdb
+C:\Users\apazgarcia\source\repos\NuevosComponentes\NuevosComponentes\obj\Debug\NuevosComponentes.csprojAssemblyReference.cache
+C:\Users\apazgarcia\source\repos\NuevosComponentes\NuevosComponentes\obj\Debug\NuevosComponentes.LabelTextbox.resources
+C:\Users\apazgarcia\source\repos\NuevosComponentes\NuevosComponentes\obj\Debug\NuevosComponentes.csproj.GenerateResource.cache
+C:\Users\apazgarcia\source\repos\NuevosComponentes\NuevosComponentes\obj\Debug\NuevosComponentes.csproj.CoreCompileInputs.cache
+C:\Users\apazgarcia\source\repos\NuevosComponentes\NuevosComponentes\obj\Debug\NuevosComponentes.dll
+C:\Users\apazgarcia\source\repos\NuevosComponentes\NuevosComponentes\obj\Debug\NuevosComponentes.pdb
