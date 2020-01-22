@@ -1,0 +1,13 @@
+C:\Users\apazgarcia\source\repos\Ejercicio2\Tests\bin\Debug\Tests.exe.config
+C:\Users\apazgarcia\source\repos\Ejercicio2\Tests\bin\Debug\Tests.exe
+C:\Users\apazgarcia\source\repos\Ejercicio2\Tests\bin\Debug\Tests.pdb
+C:\Users\apazgarcia\source\repos\Ejercicio2\Tests\bin\Debug\Ejercicio2.dll
+C:\Users\apazgarcia\source\repos\Ejercicio2\Tests\bin\Debug\Ejercicio2.pdb
+C:\Users\apazgarcia\source\repos\Ejercicio2\Tests\obj\Debug\Tests.csprojAssemblyReference.cache
+C:\Users\apazgarcia\source\repos\Ejercicio2\Tests\obj\Debug\Tests.Form1.resources
+C:\Users\apazgarcia\source\repos\Ejercicio2\Tests\obj\Debug\Tests.Properties.Resources.resources
+C:\Users\apazgarcia\source\repos\Ejercicio2\Tests\obj\Debug\Tests.csproj.GenerateResource.cache
+C:\Users\apazgarcia\source\repos\Ejercicio2\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+C:\Users\apazgarcia\source\repos\Ejercicio2\Tests\obj\Debug\Tests.csproj.CopyComplete
+C:\Users\apazgarcia\source\repos\Ejercicio2\Tests\obj\Debug\Tests.exe
+C:\Users\apazgarcia\source\repos\Ejercicio2\Tests\obj\Debug\Tests.pdb

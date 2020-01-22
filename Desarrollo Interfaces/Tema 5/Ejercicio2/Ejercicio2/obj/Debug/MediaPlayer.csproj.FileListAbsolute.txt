@@ -1,0 +1,8 @@
+C:\Users\apazgarcia\source\repos\Ejercicio2\Ejercicio2\bin\Debug\Ejercicio2.dll
+C:\Users\apazgarcia\source\repos\Ejercicio2\Ejercicio2\bin\Debug\Ejercicio2.pdb
+C:\Users\apazgarcia\source\repos\Ejercicio2\Ejercicio2\obj\Debug\MediaPlayer.csprojAssemblyReference.cache
+C:\Users\apazgarcia\source\repos\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.MediaPlayer.resources
+C:\Users\apazgarcia\source\repos\Ejercicio2\Ejercicio2\obj\Debug\MediaPlayer.csproj.GenerateResource.cache
+C:\Users\apazgarcia\source\repos\Ejercicio2\Ejercicio2\obj\Debug\MediaPlayer.csproj.CoreCompileInputs.cache
+C:\Users\apazgarcia\source\repos\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.dll
+C:\Users\apazgarcia\source\repos\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.pdb
