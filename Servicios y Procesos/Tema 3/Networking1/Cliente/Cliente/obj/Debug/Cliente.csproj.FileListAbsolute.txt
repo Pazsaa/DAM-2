@@ -1,0 +1,22 @@
+C:\Users\apazg\source\repos\Networking1\Cliente\Cliente\bin\Debug\Cliente.exe.config
+C:\Users\apazg\source\repos\Networking1\Cliente\Cliente\bin\Debug\Cliente.exe
+C:\Users\apazg\source\repos\Networking1\Cliente\Cliente\bin\Debug\Cliente.pdb
+C:\Users\apazg\source\repos\Networking1\Cliente\Cliente\obj\Debug\Cliente.csprojAssemblyReference.cache
+C:\Users\apazg\source\repos\Networking1\Cliente\Cliente\obj\Debug\Cliente.Form1.resources
+C:\Users\apazg\source\repos\Networking1\Cliente\Cliente\obj\Debug\Cliente.Properties.Resources.resources
+C:\Users\apazg\source\repos\Networking1\Cliente\Cliente\obj\Debug\Cliente.csproj.GenerateResource.cache
+C:\Users\apazg\source\repos\Networking1\Cliente\Cliente\obj\Debug\Cliente.csproj.CoreCompileInputs.cache
+C:\Users\apazg\source\repos\Networking1\Cliente\Cliente\obj\Debug\Cliente.exe
+C:\Users\apazg\source\repos\Networking1\Cliente\Cliente\obj\Debug\Cliente.pdb
+C:\Users\apazg\source\repos\Networking1\Cliente\Cliente\obj\Debug\Cliente.IPForm.resources
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking1\Cliente\Cliente\bin\Debug\Cliente.exe.config
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking1\Cliente\Cliente\bin\Debug\Cliente.exe
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking1\Cliente\Cliente\bin\Debug\Cliente.pdb
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking1\Cliente\Cliente\obj\Debug\Cliente.csprojAssemblyReference.cache
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking1\Cliente\Cliente\obj\Debug\Cliente.Form1.resources
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking1\Cliente\Cliente\obj\Debug\Cliente.IPForm.resources
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking1\Cliente\Cliente\obj\Debug\Cliente.Properties.Resources.resources
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking1\Cliente\Cliente\obj\Debug\Cliente.csproj.GenerateResource.cache
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking1\Cliente\Cliente\obj\Debug\Cliente.csproj.CoreCompileInputs.cache
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking1\Cliente\Cliente\obj\Debug\Cliente.exe
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking1\Cliente\Cliente\obj\Debug\Cliente.pdb
