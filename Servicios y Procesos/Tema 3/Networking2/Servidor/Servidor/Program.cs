@@ -56,9 +56,21 @@ namespace Servidor
                     using (NetworkStream ns = new NetworkStream(client))
                     using (StreamReader sr = new StreamReader(ns))
                     {
-                        string message = username + "@" + ip + ": " + sr.ReadLine();
-                        Console.WriteLine(message) ;
-                        Broadcast(message, client);
+                        string message = sr.ReadLine();
+                        string FORMAT = username + "@" + ip + ": " + message;
+                        Console.WriteLine(message);
+
+                        switch (message)
+                        {
+                            case "#salir":
+                                client.Close();
+                                break;
+                            case "#lista":
+                                break;
+                            default:
+                                Broadcast(FORMAT, client);
+                                break;
+                        }
                     }
                 }
                 
