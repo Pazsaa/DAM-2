@@ -14,7 +14,8 @@ namespace Servidor
     class Program
     {
         private static readonly object _lock = new object();
-        private static readonly List<Socket> clients = new List<Socket>();
+        private static readonly Dictionary<string, Socket> clientes = new Dictionary<string, Socket>();
+        //private static readonly List<Socket> clients = new List<Socket>();
 
         static void Main(string[] args)
         {
@@ -29,7 +30,7 @@ namespace Servidor
                 {
                     Socket client = s.Accept();
                     Console.WriteLine("Client {0} connected at {1}", (client.RemoteEndPoint as IPEndPoint).Address, (client.RemoteEndPoint as IPEndPoint).Port);
-                    lock (_lock) clients.Add(client);
+                    //lock (_lock) clients.Add(client);
                     Thread t = new Thread(o => ClientThread(client));
                     t.Start();
                 }
@@ -47,6 +48,9 @@ namespace Servidor
                 using (StreamReader sr = new StreamReader(ns))
                 {
                     username = sr.ReadLine();
+                    // test
+                    lock (_lock) clientes.Add(username, client);
+                    // eof test
                     string connectedString = String.Format("{0}@{1} has connected!", username, ip);
                     Broadcast(connectedString, client);
                 }
@@ -55,10 +59,32 @@ namespace Servidor
                 {
                     using (NetworkStream ns = new NetworkStream(client))
                     using (StreamReader sr = new StreamReader(ns))
+                    using (StreamWriter sw = new StreamWriter(ns))
                     {
-                        string message = username + "@" + ip + ": " + sr.ReadLine();
-                        Console.WriteLine(message) ;
-                        Broadcast(message, client);
+                        string message = sr.ReadLine();
+                        string FORMAT = username + "@" + ip + ": " + message;
+                        Console.WriteLine(FORMAT);
+
+                        switch (message)
+                        {
+                            case "#salir":
+                                client.Close();
+                                break;
+                            case "#lista":
+                                lock (_lock)
+                                {
+                                    string format = "";
+                                    foreach (KeyValuePair<string, Socket> e in clientes)
+                                    {
+                                        format = string.Format("{0}@{1}\n", e.Key, (e.Value.RemoteEndPoint as IPEndPoint).Address);
+                                        sw.WriteLine(format);
+                                    }
+                                }
+                                break;
+                            default:
+                                Broadcast(FORMAT, client);
+                                break;
+                        }
                     }
                 }
                 
@@ -67,7 +93,7 @@ namespace Servidor
             {
                 Console.WriteLine("{0}@{1} disconnected!", username, ip);
                 string disconnectedString = String.Format("{0}@{1} has disconnected!", username, ip);
-                lock (_lock) clients.Remove(client);
+                lock (_lock) clientes.Remove(username);
                 Broadcast(disconnectedString, client);
             }
             
@@ -75,11 +101,25 @@ namespace Servidor
 
         public static void Broadcast(string message, Socket origin)
         {
-            foreach(Socket c in clients)
+            //foreach(Socket c in clients)
+            //{
+            //    if(c != origin)
+            //    {
+            //        using (NetworkStream ns = new NetworkStream(c))
+            //        using (StreamWriter sw = new StreamWriter(ns))
+            //        {
+            //            sw.WriteLine(message);
+            //        }
+            //    }
+            //}
+
+            // testing
+            foreach(KeyValuePair<string, Socket> e in clientes)
             {
-                if(c != origin)
+                Socket client = e.Value;
+                if(client != origin)
                 {
-                    using (NetworkStream ns = new NetworkStream(c))
+                    using (NetworkStream ns = new NetworkStream(client))
                     using (StreamWriter sw = new StreamWriter(ns))
                     {
                         sw.WriteLine(message);

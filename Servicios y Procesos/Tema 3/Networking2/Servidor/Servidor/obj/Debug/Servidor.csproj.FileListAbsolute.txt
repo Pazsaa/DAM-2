@@ -5,3 +5,10 @@ C:\Users\apazgarcia\Desktop\Servidor\Servidor\obj\Debug\Servidor.csprojAssemblyR
 C:\Users\apazgarcia\Desktop\Servidor\Servidor\obj\Debug\Servidor.csproj.CoreCompileInputs.cache
 C:\Users\apazgarcia\Desktop\Servidor\Servidor\obj\Debug\Servidor.exe
 C:\Users\apazgarcia\Desktop\Servidor\Servidor\obj\Debug\Servidor.pdb
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking2\Servidor\Servidor\bin\Debug\Servidor.exe.config
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking2\Servidor\Servidor\bin\Debug\Servidor.exe
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking2\Servidor\Servidor\bin\Debug\Servidor.pdb
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking2\Servidor\Servidor\obj\Debug\Servidor.csprojAssemblyReference.cache
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking2\Servidor\Servidor\obj\Debug\Servidor.csproj.CoreCompileInputs.cache
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking2\Servidor\Servidor\obj\Debug\Servidor.exe
+C:\Users\apazg\Desktop\DAM-2\Servicios y Procesos\Tema 3\Networking2\Servidor\Servidor\obj\Debug\Servidor.pdb
