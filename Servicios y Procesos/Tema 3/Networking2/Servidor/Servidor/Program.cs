@@ -78,6 +78,7 @@ namespace Servidor
                                     {
                                         format = string.Format("{0}@{1}\n", e.Key, (e.Value.RemoteEndPoint as IPEndPoint).Address);
                                         sw.WriteLine(format);
+                                        sw.Flush();
                                     }
                                 }
                                 break;
